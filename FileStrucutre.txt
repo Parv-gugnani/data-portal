@@ -1,0 +1,14 @@
+data-portal/
+├── public/                # Static files (images, icons, etc.)
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Next.js pages
+│   │   ├── api/           # API routes (backend logic)
+│   │   ├── index.tsx      # Home page
+│   ├── styles/            # CSS files
+│   │   └── globals.css    # Global CSS file
+├── .env                   # Environment variables (for backend secrets)
+├── .gitignore             # Files to ignore in version control
+├── package.json           # NPM dependencies and scripts
+├── tsconfig.json          # TypeScript configuration
+└── next.config.js         # Next.js configuration file
